@@ -1,0 +1,106 @@
+﻿<!--
+     The MIT License (MIT)
+
+Copyright (c) <2014> <Ville Viitala>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+    -->
+    
+<Window x:Class="LearnToCSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="800" Width="1080" ResizeMode="NoResize">
+    <StackPanel Orientation="Horizontal" Background="#FFBDBCBC">
+
+        <StackPanel Name="stackArea"  Margin="5" Background="White" Width="800" Height="800" >
+            <Canvas Name="canvasArea">
+                <Image x:Name="imageRobot"></Image>
+            </Canvas>
+        </StackPanel>
+
+        <StackPanel Name="stackControls" Margin="0,5" Background="#FFEAE8E8" Width="250" Height="800">
+            <Label Content="Controls" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"></Label>
+
+            <Label Content="Move"></Label>
+            <StackPanel Orientation="Horizontal">
+                <ComboBox Name="comboBoxMoveDirection">
+                    <ComboBoxItem Content="Up" IsSelected="True"/>
+                    <ComboBoxItem Content="Down"/>
+                    <ComboBoxItem Content="Left"/>
+                    <ComboBoxItem Content="Right"/>
+                </ComboBox>
+                <Label Content="Direction"></Label>
+                <ComboBox Name="comboBoxMoveSteps">
+                    <ComboBoxItem Content="1" IsSelected="True"/>
+                    <ComboBoxItem Content="2"/>
+                    <ComboBoxItem Content="3"/>
+                    <ComboBoxItem Content="4"/>
+                    <ComboBoxItem Content="5"/>
+                    <ComboBoxItem Content="6"/>
+                </ComboBox>
+                <Label Content="Steps"></Label>
+            </StackPanel>
+
+            <Label Content="Draw Line"></Label>
+            <RadioButton Name="radioButtonDrawOn" GroupName="rbDraw" Margin="5,0,0,0" IsChecked="True" Checked="radioButtonDrawOn_Checked">On</RadioButton>
+            <RadioButton Name="radioButtonDrawOff" GroupName="rbDraw" Margin="5,0,0,0" Checked="radioButtonDrawOff_Checked">Off</RadioButton>
+
+            <Label Content="Line Color"></Label>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Background="Black" BorderBrush="Black" Foreground="Black" Name="radioButtonBlack" GroupName="rbColor" 
+                             IsChecked="True" Margin="5,0,2,0" Checked="radioButton_Checked"></RadioButton>
+                <RadioButton Background="Red" BorderBrush="Red" Foreground="Red" Name="radioButtonRed" GroupName="rbColor" 
+                             Margin="0,0,2,0" Checked="radioButton_Checked"></RadioButton>
+                <RadioButton Background="Blue" BorderBrush="Blue" Foreground="Blue" Name="radioButtonBlue" GroupName="rbColor" 
+                             Margin="0,0,2,0" Checked="radioButton_Checked"></RadioButton>
+                <RadioButton Background="Green" BorderBrush="Green" Foreground="Green" Name="radioButtonGreen" GroupName="rbColor" 
+                             Margin="0,0,2,0" Checked="radioButton_Checked"></RadioButton>
+                <RadioButton Background="Yellow" BorderBrush="Yellow" Foreground="Yellow" Name="radioButtonYellow" GroupName="rbColor" 
+                             Margin="0,0,2,0" Checked="radioButton_Checked"></RadioButton>
+                <RadioButton Background="Orange" BorderBrush="Orange" Foreground="Orange" Name="radioButtonOrange" GroupName="rbColor" 
+                             Margin="0,0,2,0" Checked="radioButton_Checked"></RadioButton>
+                <RadioButton Background="Gray" BorderBrush="Gray" Foreground="Gray" Name="radioButtonGray" GroupName="rbColor" 
+                             Margin="0,0,2,0" Checked="radioButton_Checked"></RadioButton>
+            </StackPanel>
+
+            <Label Content="Line Type"></Label>
+            <ComboBox Name="comboBoxLineType">
+                <ComboBoxItem Content="Solid" IsSelected="True"/>
+                <ComboBoxItem Content="Dashed"/>
+                <ComboBoxItem Content="Dotted"/>
+            </ComboBox>
+
+            <Label Content="Line Thickness"></Label>
+            <StackPanel Orientation="Horizontal">
+                <Slider Name="sliderThickness" SmallChange="2" TickFrequency="2" Minimum="2" Maximum="20" LargeChange="2" 
+                        Value="2" IsSnapToTickEnabled="True" TickPlacement="BottomRight" Width="228" ValueChanged="sliderThickness_ValueChanged"/>
+                <TextBox Name="textBoxSliderThicknessValue" IsReadOnly="true" Width="22" Text="2"></TextBox>
+            </StackPanel>
+            
+            <!--Button for executing UI commands-->
+            <Button x:Name="buttonExecute" Content="Execute" Click="buttonExecute_Click" Margin="0,10,0,0"/>
+            <!--Buttons for executing your own coded commands-->
+            <!--Use these for experimenting or create totally new ones-->
+            <Button x:Name="buttonSquare" Content="Draw a Square" Margin="0,10,0,0" Click="buttonSquare_Click"/>
+            <Button x:Name="buttonClear" Content="Clear" Click="buttonClear_Click"  Margin="0,10,0,0"/>
+        </StackPanel>
+
+
+    </StackPanel>
+</Window>

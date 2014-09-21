@@ -1,0 +1,39 @@
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\bin\Debug\LearnToCSharp.exe.config
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\bin\Debug\LearnToCSharp.exe
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\bin\Debug\LearnToCSharp.pdb
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\obj\Debug\MainWindow.baml
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\obj\Debug\MainWindow.g.cs
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\obj\Debug\App.g.cs
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp_MarkupCompile.cache
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.g.resources
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.Properties.Resources.resources
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.csproj.GenerateResource.Cache
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.exe
+C:\Users\Ville\Desktop\Opinnäytetyö-projekti\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.pdb
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\bin\Debug\LearnToCSharp.exe.config
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\bin\Debug\LearnToCSharp.exe
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\bin\Debug\LearnToCSharp.pdb
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\obj\Debug\MainWindow.baml
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\obj\Debug\MainWindow.g.cs
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\obj\Debug\App.g.cs
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp_MarkupCompile.cache
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.g.resources
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.Properties.Resources.resources
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.csproj.GenerateResource.Cache
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.exe
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.pdb
+C:\Users\Ville\Desktop\LearnToCSharp\LearnToCSharp\obj\Debug\LearnToCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\bin\Debug\LearnToCSharp.exe.config
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\obj\Debug\LearnToCSharp.exe
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\obj\Debug\LearnToCSharp.pdb
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\bin\Debug\LearnToCSharp.exe
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\bin\Debug\LearnToCSharp.pdb
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\obj\Debug\LearnToCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\obj\Debug\MainWindow.baml
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\obj\Debug\MainWindow.g.cs
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\obj\Debug\App.g.cs
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\obj\Debug\LearnToCSharp_MarkupCompile.cache
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\obj\Debug\LearnToCSharp.g.resources
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\obj\Debug\LearnToCSharp.Properties.Resources.resources
+C:\Users\Ville\Desktop\LearnToCSharp v2\LearnToCSharp\obj\Debug\LearnToCSharp.csproj.GenerateResource.Cache
